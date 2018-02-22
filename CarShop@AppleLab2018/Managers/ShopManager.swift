@@ -16,6 +16,8 @@ class ShopManager {
     
     private init() { }
     
+    //MARK: - Logic
+    
     func add(cars: [Car]) {
         self.cars.append(contentsOf: cars)
     }

@@ -16,6 +16,8 @@ class AccountManager {
     
     private init() { }
     
+    //MARK: - Logic
+    
     func login(withUsername username: String?, password: String?) -> Bool {
         for client in registeredUsers {
             if client.hasCredentials(username: username, password: password) {

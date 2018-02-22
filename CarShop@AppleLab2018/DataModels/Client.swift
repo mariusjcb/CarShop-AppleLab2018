@@ -22,7 +22,11 @@ class Client {
         
         self.wallet = cash
     }
-    
+}
+
+//MARK: - Logic
+
+extension Client {
     func extract(money: Double) {
         wallet -= money
     }

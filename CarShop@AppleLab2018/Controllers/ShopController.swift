@@ -25,7 +25,7 @@ class ShopController: UIViewController, UITableViewDataSource, UITableViewDelega
         carsTableView.reloadData()
     }
     
-    //MARK: TableViewDataSource & Delegate
+    //MARK: - TableViewDataSource & Delegate
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if isShop {
