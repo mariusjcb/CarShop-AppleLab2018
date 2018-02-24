@@ -19,6 +19,7 @@ import Foundation
 //
 
 // say hello
+// say bye
 
 class TestData {
     class var cars: [Car] {
