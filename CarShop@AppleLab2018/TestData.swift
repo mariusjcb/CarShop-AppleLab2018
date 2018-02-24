@@ -18,6 +18,8 @@ import Foundation
 //
 //
 
+// say hello
+
 class TestData {
     class var cars: [Car] {
         let bmwi8 = Car(model: "BMW i8 din 2016", power: 2400, price: 7500, image: #imageLiteral(resourceName: "bmw-i8-front"), color: .white)
